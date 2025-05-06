@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(to right, #0066cc, #004080);
+    color: white;
+  }
+  
+  .hero .btn {
+    background-color: white;
+    color: #004080;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  
+  .calculator {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .calc-form input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .calc-form button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004080;
+    color: white;
+    margin-top: 2rem;
+  }
+  
